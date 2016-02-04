@@ -65,11 +65,7 @@ class AddDoctor {
         catch(Exception $e){print_r($e);}
     }
 }
-$obj = new AddGroup();
+$obj = new AddDoctor();
 //$obj->addOneEntrySpecialty();
 $obj->addOneEntryGroup();
-
-    }
-    
-        
-    }
+?>
